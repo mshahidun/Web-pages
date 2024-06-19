@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeedBack Form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>CUSTOMER FEEDBACK FORM</h1>
+    <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, cupiditate amet reprehenderit nam
+        provident
+        deleniti ex doloribus, eos ipsa excepturi doloremque maxime tempora animi veritatis perferendis, veniam
+        voluptates ea officia? <br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi itaque magnam
+        eligendi, enim fugiat deserunt quas! Doloremque ipsam ipsum iste asperiores fugit aut quod blanditiis,</P>
+
+    <hr>
+
+
+    <!----------- 1. This feedback is a: ------------->
+
+    <form action="#" method="post">
+        <label><b>1. This feedback is a:</b></label>
+        <input id="Suggestion" type="checkbox" name="feedback" value="Suggestion">
+        <label for="Suggestion"><b>Suggestion</b></label>
+        <input id="Compliment" type="checkbox" name="feedback" value="Compliment">
+        <label for="Compliment"><b>Compliment</b></label>
+        <input id="Complaint" type="checkbox" name="feedback" value="Complaint">
+        <label for="Complaint"><b>Complaint</b></label>
+
+        <hr>
+
+        <!------------------- 2. About which service? ------------------------->
+
+        <div class="flex-container">
+            <div>
+                <label><b>2. About which service?</b></label>
+                <br>
+                <input id="enquiries/information" type="checkbox" name="service" value="enquiries/information">
+                <label for="enquiries/information">enquiries/information</label>
+                <br>
+                <input id="ComplaintHandling" type="checkbox" name="service" value="ComplaintHandling">
+                <label for="ComplaintHandling">Complaint handling/dispute resolution</label>
+                <br>
+                <input id="homeLicences" type="checkbox" name="service" value="homeLicences">
+                <label for="homeLicences">home building licences</label>
+                <br>
+                <input id="inspections" type="checkbox" name="service" value="inspections">
+                <label for="inspections">inspections/investigattions</label>
+                <br>
+                <input id="businessLicences" type="checkbox" name="service" value="businessLicences">
+                <label for="businessLicences">business licences</label>
+                <br>
+                <input id="bonds" type="checkbox" name="service" value="bonds">
+                <label for="bonds">tenancy/rentals bonds</label>
+                <br>
+                <input id="mediation" type="checkbox" name="service" value="mediation">
+                <label for="mediation">strata/strata mediation</label>
+                <br>
+                <input id="co-operatives" type="checkbox" name="service" value="co-operatives">
+                <label for="co-operatives">co-operatives/assosiations</label>
+                <br>
+                <input id="loose-fill" type="checkbox" name="service" value="loose-fill">
+                <label for="loose-fill">loose-fill asbestos implementation
+                    taskforce</label>
+                <br>
+                <input id="otherService" type="checkbox" name="service" value="other">
+                <label for="otherService">other</label>
+                <input id="otherText" type="text" name="service">
+            </div>
+
+            <!------------------------ 3. About which issue? --------------------------->
+            <div>
+
+                <label><b>3. About which issue?</b></label>
+                <br>
+                <input id="FairTrading" type="checkbox" name="issue" value="FairTrading">
+                <label for="FairTrading">Fair trading decision, policy or procedure</label>
+                <br>
+                <input id="administration" type="checkbox" name="issue" value="administration">
+                <label for="administration">administration of legistation</label>
+                <br>
+                <input id="information" type="checkbox" name="issue" value="information">
+                <label for="information">information accuracy</label>
+                <br>
+                <input id="timeliness" type="checkbox" name="issue" value="timeliness">
+                <label for="timeliness">timeliness of service</label>
+                <br>
+                <input id="staffActions" type="checkbox" name="issue" value="staffActions">
+                <label for="staffActions">staff actions/customer service</label>
+                <br>
+                <input id="accessibility" type="checkbox" name="issue" value="accessibility">
+                <label for="accessibility">accessibility of service</label>
+                <br>
+                <input id="fees/charges" type="checkbox" name="issue" value="fees/charges">
+                <label for="fees/charges">fees/charges</label>
+                <br>
+                <input id="webIssue" type="checkbox" name="issue" value="website">
+                <label for="webIssue">website</label>
+                <br>
+                <input id="otherIssue" type="checkbox" name="issue" value="other">
+                <label for="otherIssue">other</label>
+                <input id="otherIssueText" type="text" name="issue">
+
+            </div>
+        </div>
+        <br>
+        <hr>
+
+        <!----------------------- 4. How did we provide the service? ---------------------->
+
+
+        <label><b>4. How did we provide the service?</b></label>
+        <br>
+        <input id="phone" type="checkbox" name="feedback" value="phone">
+        <label for="phone">phone</label>
+        <input id="webService" type="checkbox" name="feedback" value="website">
+        <label for="webService">website</label>
+        <input id="letter" type="checkbox" name="feedback" value="letter">
+        <label for="letter">letter</label>
+        <input id="seminar" type="checkbox" name="feedback" value="seminar">
+        <label for="seminar">seminar</label>
+        <input id="email" type="checkbox" name="feedback" value="email">
+        <label for="email">email</label>
+        <input id="SpecifyText" type="checkbox" name="feedback" value="other (please specify)">
+        <label for="SpecifyText">other (please specify)</label>
+        <input id="SpecifyText" type="text">
+        <br>
+        <label for="number">Phone number called (if appropriate)</label>
+        <input id="number" type="number" name="number" value="">
+        <br><br>
+        <label for="TrandingOfficer">Name of fair Tranding officer (if appropriate)</label>
+        <input type="text" name="TrandingOfficer" id="TrandingOfficer">
+
+        <hr>
+
+        <!-------------------- 5. When we did provide the service? ----------------->
+
+        <label><b>5. When we did provide the service?</b></label>
+        <br>
+        <label for="DateOfService">Date of service</label>
+        <input type="text" name="DateOfService" id="DateOfService">
+        &nbsp; &nbsp; &nbsp;
+        <label for="time">Time</label>
+        <input type="text" name="time" id="time" value="">
+
+        <hr>
+
+        <!--------------------- 6. Are you: ----------------->
+
+        <label><b>6. Are you:</b></label>
+
+        <input id="atrader" type="checkbox" name="areyou" value="atrader">
+        <label for="atrader">a trader</label>
+        <input id="aconsumer" type="checkbox" name="areyou" value="aconsumer">
+        <label for="aconsumer">a consumer</label>
+        <input id="someoneElse" type="checkbox" name="areyou" value="someoneElse">
+        <label for="someoneElse">providing feedback on behalf of someone else</label>
+
+        <hr>
+
+        <!---------------- 7: Please write details of your feedback here: --------------->
+
+        <label><b>7: Please write details of your feedback here:</b></label>
+        <br>
+        <textarea name="detailsFeedback" id="detailsFeedback" cols="107" rows="5"></textarea>
+
+        <input type="submit" value="submit">
+
+    </form>
+</body>
+
+</html>
