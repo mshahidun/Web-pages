@@ -1,6 +1,12 @@
+*{
+    font-family: sans-serif;
+}
+
 body {
     margin: 0 auto;
     width: 60%;
+    background-color: #0066ff;
+    color: white;
 }
 
 .flex-container {
@@ -8,5 +14,33 @@ body {
     justify-content: space-between;
 }
 
+.submit{
+    padding: 0 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #0066ff;
+    margin-bottom: 50px;
+}
+
+.home-btn{
+    margin-top: 30px;
+    margin-left: -250px;
+}
+
+.home-btn a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #0066ff;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.home-btn a:hover{
+    color: white;
+    background-color: #0066ff;
+    border: 1px solid white;
+}
 
 

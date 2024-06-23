@@ -16,9 +16,13 @@ body{
     background-color: #0066ff;
 }
 
+.home-btn a{
+    color: white ;
+}
+
 .main {
     width: 400px;
-    height: 500px;
+    height: 550px;
     background-color: white;
     text-align: center;
     padding: 5px;
@@ -46,6 +50,10 @@ a{
     color: #0066ff;
     text-decoration: none;
     font-weight: 700;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 .button{
